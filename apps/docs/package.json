@@ -1,0 +1,13 @@
+{
+  "name": "google-docs-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Google Docs' --platform=darwin --arch=arm64 --overwrite --icon=icon.icns --app-bundle-id=com.googledocs.desktop --extend-info=extend.plist"
+  },
+  "devDependencies": {
+    "electron": "^41.2.1",
+    "electron-packager": "^17.1.2"
+  }
+}

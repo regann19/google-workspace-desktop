@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDocumentTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleTypeName</key>
+      <string>Google Slides</string>
+      <key>CFBundleTypeExtensions</key>
+      <array>
+        <string>gslides</string>
+        <string>pptx</string>
+        <string>ppt</string>
+      </array>
+      <key>CFBundleTypeRole</key>
+      <string>Editor</string>
+    </dict>
+  </array>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>Google Slides URL</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>gslides</string>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>

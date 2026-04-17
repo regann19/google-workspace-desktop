@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDocumentTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleTypeName</key>
+      <string>Google Sheet</string>
+      <key>CFBundleTypeExtensions</key>
+      <array>
+        <string>gsheet</string>
+        <string>xlsx</string>
+        <string>xls</string>
+        <string>csv</string>
+      </array>
+      <key>CFBundleTypeRole</key>
+      <string>Editor</string>
+    </dict>
+  </array>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>Google Sheets URL</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>gsheets</string>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>
