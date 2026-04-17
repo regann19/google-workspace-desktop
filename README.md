@@ -1,5 +1,12 @@
 # Google Workspace Desktop
 
+[![GitHub stars](https://img.shields.io/github/stars/regann19/google-workspace-desktop?style=social)](https://github.com/regann19/google-workspace-desktop/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/regann19/google-workspace-desktop?style=social)](https://github.com/regann19/google-workspace-desktop/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/regann19/google-workspace-desktop)](https://github.com/regann19/google-workspace-desktop/issues)
+[![GitHub license](https://img.shields.io/github/license/regann19/google-workspace-desktop)](https://github.com/regann19/google-workspace-desktop/blob/master/LICENSE)
+[![Platform](https://img.shields.io/badge/platform-macOS-blue)](https://github.com/regann19/google-workspace-desktop)
+[![Built with Electron](https://img.shields.io/badge/built%20with-Electron-47848f?logo=electron&logoColor=white)](https://www.electronjs.org/)
+
 Native macOS desktop apps for Google Workspace — Gmail, Drive, Docs, Sheets, Slides, and Calendar. Built with Electron.
 
 No Chrome dependency. External links open in your default browser. Each app runs as a standalone window with its own dock icon.
@@ -156,6 +163,20 @@ cd apps/gmail
 npm run build
 ```
 
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -am 'Add my feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
+
 ## License
 
 MIT
+
+---
+
+If you find this useful, give it a star! It helps others discover the project.
