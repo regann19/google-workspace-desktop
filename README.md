@@ -6,11 +6,13 @@
 
 **Gmail** &bull; **Drive** &bull; **Docs** &bull; **Sheets** &bull; **Slides** &bull; **Calendar**
 
-[![GitHub stars](https://img.shields.io/github/stars/regann19/google-workspace-desktop?style=for-the-badge&logo=github)](https://github.com/regann19/google-workspace-desktop/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/regann19/google-workspace-desktop?style=for-the-badge&logo=github)](https://github.com/regann19/google-workspace-desktop/network/members)
-[![License](https://img.shields.io/github/license/regann19/google-workspace-desktop?style=for-the-badge)](https://github.com/regann19/google-workspace-desktop/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/regann19/google-workspace-desktop?style=for-the-badge&logo=github&cacheSeconds=0)](https://github.com/regann19/google-workspace-desktop/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/regann19/google-workspace-desktop?style=for-the-badge&logo=github&cacheSeconds=0)](https://github.com/regann19/google-workspace-desktop/network/members)
+[![License](https://img.shields.io/github/license/regann19/google-workspace-desktop?style=for-the-badge&cacheSeconds=0)](https://github.com/regann19/google-workspace-desktop/blob/master/LICENSE)
 
-[![Platform](https://img.shields.io/badge/platform-macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/regann19/google-workspace-desktop)
+[![macOS](https://img.shields.io/badge/macOS-supported-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/regann19/google-workspace-desktop)
+[![Windows](https://img.shields.io/badge/Windows-coming%20soon-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/regann19/google-workspace-desktop)
+[![Linux](https://img.shields.io/badge/Linux-coming%20soon-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/regann19/google-workspace-desktop)
 [![Built with Electron](https://img.shields.io/badge/Electron-47848f?style=for-the-badge&logo=electron&logoColor=white)](https://www.electronjs.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/regann19/google-workspace-desktop/pulls)
 
@@ -39,7 +41,7 @@ Double-click `.gdoc`, `.gsheet`, and `.gslides` files to open them directly.
 
 ## Prerequisites
 
-- **macOS** (Apple Silicon)
+- **macOS** (Apple Silicon) — Windows/Linux support coming soon
 - **Node.js** 18+ and npm
 - **Google Drive for Desktop** (optional, for file sync and `.gdoc` file support) — [Download](https://www.google.com/drive/download/)
 
