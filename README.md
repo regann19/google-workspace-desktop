@@ -1,15 +1,30 @@
+<div align="center">
+
 # Google Workspace Desktop
 
-[![GitHub stars](https://img.shields.io/github/stars/regann19/google-workspace-desktop?style=social)](https://github.com/regann19/google-workspace-desktop/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/regann19/google-workspace-desktop?style=social)](https://github.com/regann19/google-workspace-desktop/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/regann19/google-workspace-desktop)](https://github.com/regann19/google-workspace-desktop/issues)
-[![GitHub license](https://img.shields.io/github/license/regann19/google-workspace-desktop)](https://github.com/regann19/google-workspace-desktop/blob/master/LICENSE)
-[![Platform](https://img.shields.io/badge/platform-macOS-blue)](https://github.com/regann19/google-workspace-desktop)
-[![Built with Electron](https://img.shields.io/badge/built%20with-Electron-47848f?logo=electron&logoColor=white)](https://www.electronjs.org/)
+### Run Google Workspace as native macOS apps — no Chrome required.
 
-Native macOS desktop apps for Google Workspace — Gmail, Drive, Docs, Sheets, Slides, and Calendar. Built with Electron.
+**Gmail** &bull; **Drive** &bull; **Docs** &bull; **Sheets** &bull; **Slides** &bull; **Calendar**
 
-No Chrome dependency. External links open in your default browser. Each app runs as a standalone window with its own dock icon.
+[![GitHub stars](https://img.shields.io/github/stars/regann19/google-workspace-desktop?style=for-the-badge&logo=github)](https://github.com/regann19/google-workspace-desktop/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/regann19/google-workspace-desktop?style=for-the-badge&logo=github)](https://github.com/regann19/google-workspace-desktop/network/members)
+[![License](https://img.shields.io/github/license/regann19/google-workspace-desktop?style=for-the-badge)](https://github.com/regann19/google-workspace-desktop/blob/master/LICENSE)
+
+[![Platform](https://img.shields.io/badge/platform-macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/regann19/google-workspace-desktop)
+[![Built with Electron](https://img.shields.io/badge/Electron-47848f?style=for-the-badge&logo=electron&logoColor=white)](https://www.electronjs.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/regann19/google-workspace-desktop/pulls)
+
+---
+
+Each Google Workspace service runs as its own standalone desktop app with its own dock icon, persistent login, desktop notifications, and keyboard shortcuts. External links open in your default browser — not Chrome.
+
+**Docs, Sheets, and Slides support multi-window** — open multiple documents side by side, all grouped under one dock icon.
+
+Double-click `.gdoc`, `.gsheet`, and `.gslides` files to open them directly.
+
+</div>
+
+---
 
 ## Features
 
@@ -173,10 +188,20 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
 
+## Disclaimer
+
+This project is not affiliated with, endorsed by, or associated with Google. Google Workspace, Gmail, Google Drive, Google Docs, Google Sheets, Google Slides, and Google Calendar are trademarks of Google LLC. This project simply provides Electron wrappers around Google's publicly available web applications.
+
 ## License
 
 MIT
 
 ---
 
-If you find this useful, give it a star! It helps others discover the project.
+<div align="center">
+
+If you find this useful, give it a **star**! It helps others discover the project.
+
+Made with Electron and a mass amount of Claude Code.
+
+</div>
