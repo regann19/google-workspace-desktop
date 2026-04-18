@@ -1,5 +1,23 @@
 const { app, BrowserWindow, shell, Menu } = require('electron')
+const { exec } = require('child_process')
 const path = require('path')
+
+// Route document URLs to the correct Electron app
+function openInApp(url) {
+  if (url.match(/docs\.google\.com\/document/)) {
+    exec(`open -a "${process.env.HOME}/Applications/Google Docs.app" "${url}"`)
+    return true
+  }
+  if (url.match(/docs\.google\.com\/spreadsheets/)) {
+    exec(`open -a "${process.env.HOME}/Applications/Google Sheets.app" "${url}"`)
+    return true
+  }
+  if (url.match(/docs\.google\.com\/presentation/)) {
+    exec(`open -a "${process.env.HOME}/Applications/Google Slides.app" "${url}"`)
+    return true
+  }
+  return false
+}
 
 let mainWindow
 
@@ -32,16 +50,23 @@ function createWindow() {
   mainWindow.loadURL('https://drive.google.com/drive/home')
 
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
-    if (url.startsWith('https://drive.google.com') ||
-        url.startsWith('https://docs.google.com') ||
-        url.startsWith('https://sheets.google.com') ||
-        url.startsWith('https://slides.google.com') ||
-        url.startsWith('https://accounts.google.com')) {
+    // Route docs/sheets/slides to their own apps
+    if (openInApp(url)) return { action: 'deny' }
+
+    // Keep Drive and auth URLs in this window
+    if (url.includes('drive.google.com') || url.includes('accounts.google.com')) {
       mainWindow.loadURL(url)
       return { action: 'deny' }
     }
     shell.openExternal(url)
     return { action: 'deny' }
+  })
+
+  // Catch in-page navigation to docs/sheets/slides
+  mainWindow.webContents.on('will-navigate', (event, url) => {
+    if (openInApp(url)) {
+      event.preventDefault()
+    }
   })
 
   mainWindow.webContents.on('page-title-updated', (event, title) => {
